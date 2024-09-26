@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@100;400;500&family=Fira+Sans:wght@300&family=Gowun+Dodum&family=Protest+Riot&family=Rubik+Scribble&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap");
+
+body {
+  font-family: "Teachers", sans-serif;
+  background-color: #000000;
+  color: white;
+  margin: 0%;
+  padding: 0px;
+  background: url(back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-menu{
+    list-style-type:none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    flex-wrap: nowrap;
+    overflow-x: scroll; 
+    list-style: none;
+    scrollbar-width: none;
+    white-space: nowrap; 
+    padding: 0;
+    margin: 0;
+    /* justify-content: flex-start;  */
+
+}
+@media(max-width:768px){
+    .header-menu{
+
+    justify-content: flex-start; 
+    } 
+}
+.header-menu::-webkit-scrollbar {
+    display: none; 
+}
+.header-menu a{
+    text-decoration: none;
+    background-color: #d3ba8e;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+    margin:0px;
+}
+.header-menu li{
+    margin: 10px;
+    flex: 0 0 auto; 
+}
+nav{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+nav h1{
+    margin: 0px;
+    color: black;
+    margin-bottom: 20px;
+}
+header{
+    background-color: #bda67f;
+    margin: 0px;
+    padding: 20px 0 20px  0;
+    height:80px;
+    top: 0%;
+    position: sticky;
+    z-index: 975;
+}
+.main-conatiner{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.item-img img{
+    width: 180px;
+    height: 145px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.item-img{
+    position: relative;
+}
+.favorite-icon {
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
+    font-size: 20px; 
+    background-color: #bda67f;
+    border-radius: 50px;
+    padding: 8px;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+}
+.items-container{
+    background-color: #bda67f85;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #bda67f;
+    margin: 5px;
+}
+.item-details{
+    padding: 5px;
+}
+.category-container{
+    display: flex;
+    overflow-x: scroll; 
+    flex-wrap: nowrap;  
+    justify-content: flex-start;
+    scrollbar-width: none; 
+}
+.category-container::-webkit-scrollbar {
+    display: none; 
+}
+
+.items-container {
+    flex: 0 0 auto; 
+    margin: 0 10px; 
+}
+
+
+footer{
+    background-color: #bda67f;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
